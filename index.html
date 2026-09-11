@@ -115,8 +115,6 @@
             font-size: 0.95rem;
             text-align: center;
             transition: background-color 0.2s;
-            cursor: pointer;
-            border: none;
             display: inline-block;
         }
 
@@ -146,25 +144,24 @@
         <div class="download-card">
             <div class="icon">🪟</div>
             <h3>Windows</h3>
-            <div class="version-info">64-bit (exe) • 45MB</div>
-            <!-- Data URI를 이용해 클릭 즉시 실물 .exe 파일 다운로드 생성 -->
-            <a href="data:application/octet-stream;charset=utf-8,Windows%20Setup%20File" download="app-setup-win.exe" class="btn-download">Windows 설치 파일</a>
+            <div class="version-info">64-bit (exe)</div>
+            <a href="files/app-setup-win.exe" download class="btn-download">Windows 설치 파일</a>
         </div>
 
         <!-- macOS 설치 파일 다운로드 -->
         <div class="download-card">
             <div class="icon">🍎</div>
             <h3>macOS</h3>
-            <div class="version-info">Apple Silicon / Intel (dmg) • 52MB</div>
-            <a href="data:application/octet-stream;charset=utf-8,macOS%20Setup%20File" download="app-setup-mac.dmg" class="btn-download">macOS 설치 파일</a>
+            <div class="version-info">Apple Silicon / Intel (dmg)</div>
+            <a href="files/app-setup-mac.dmg" download class="btn-download">macOS 설치 파일</a>
         </div>
 
         <!-- Linux 설치 파일 다운로드 -->
         <div class="download-card">
             <div class="icon">🐧</div>
             <h3>Linux</h3>
-            <div class="version-info">Debian / Ubuntu (AppImage) • 40MB</div>
-            <a href="data:application/octet-stream;charset=utf-8,Linux%20Setup%20File" download="app-setup-linux.AppImage" class="btn-download">Linux 설치 파일</a>
+            <div class="version-info">Debian / Ubuntu (AppImage)</div>
+            <a href="files/app-setup-linux.AppImage" download class="btn-download">Linux 설치 파일</a>
         </div>
     </div>
 
